@@ -18,7 +18,7 @@ export default function CaseStudies() {
         className={`min-h-[80vh] px-6 pt-8 sm:pt-10 sm:px-12 lg:px-20 flex flex-col ${plexMono.className}`}
       >
         <p className="text-xs uppercase tracking-widest text-gray-400">
-          Selected work / Process & impact
+          My thought processes for all work done
         </p>
 
         <div className="flex flex-1 flex-col items-center justify-center text-center">

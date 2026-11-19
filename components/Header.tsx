@@ -23,13 +23,13 @@ export default function Header() {
         <div className="flex flex-col">
           <Link
             href="/"
-            className="text-5xl font-bold tracking-tight text-black sm:text-6xl lg:text-6xl"
+            className="text-2xl font-bold tracking-tight text-black sm:text-4xl lg:text-5xl"
           >
             Purity Udeh
           </Link>
 
-          <p className="mt-3 text-lg font-bold tracking-tight text-black sm:text-xl">
-            Technical Product Manager — Product & Engineering
+          <p className="mt-1 text-xs font-bold tracking-tight text-black sm:text-base lg:text-lg">
+            Product & Engineering
           </p>
         </div>
 
@@ -37,12 +37,17 @@ export default function Header() {
           aria-label="Main navigation"
           className="flex flex-col items-end gap-0.5 text-sm sm:text-base"
         >
+
           <Link href="/build" className={navClass("/build")}>
             Let's work
           </Link>
 
           <Link href="/projects" className={navClass("/projects")}>
             Projects
+          </Link>
+
+          <Link href="/case-studies" className={navClass("/case-studies")}>
+            case-studies
           </Link>
 
           <Link href="/activities" className={navClass("/activities")}>

@@ -9,7 +9,7 @@ export default function Build() {
             <main className={`px-8 sm:px-12 lg:px-16 pt-12 sm:pt-16 pb-24 ${plexMono.className}`}>
                 <section className="max-w-5xl">
 
-                    <h1 className="mb-6 text-5xl font-bold tracking-tight text-black sm:text-6xl lg:text-7xl">
+                    <h1 className="mb-6 text-5xl font-bold tracking-tight text-black sm:text-6xl lg:text-6xl">
                         Let's work<span className="text-gray-300">.</span>
                     </h1>
 

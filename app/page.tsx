@@ -21,7 +21,7 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="flex h-[calc(100vh-230px)] min-h-[420px] overflow-x-auto overflow-y-hidden">
+        <div className="relative flex h-[calc(100vh-230px)] min-h-[420px] overflow-x-auto overflow-y-hidden">
           <div className="w-4 flex-shrink-0 sm:w-10" />
 
           {projects.map((p) => (
