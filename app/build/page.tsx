@@ -21,7 +21,7 @@ export default function Build() {
                         </p>
 
                         <a
-                            href="mailto:https://udeheberepurity@gmail.com"
+                            href="mailto:udeheberepurity@gmail.com"
                             className="mt-4 inline-block text-sm font-bold text-black underline underline-offset-4 hover:opacity-50"
                         >
                             Send me an email ↗
@@ -131,7 +131,7 @@ export default function Build() {
                         </h2>
 
                         <a
-                            href="mailto:https://udeheberepurity@gmail.com"
+                            href="mailto:udeheberepurity@gmail.com"
                             className="mt-5 inline-block text-sm font-bold text-black underline underline-offset-4 hover:opacity-50"
                         >
                             Get in touch ↗
