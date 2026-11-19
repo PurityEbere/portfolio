@@ -131,7 +131,7 @@ export default function Build() {
                         </h2>
 
                         <a
-                            href="mailto:YOUR_EMAIL_ADDRESS"
+                            href="mailto:https://udeheberepurity@gmail.com"
                             className="mt-5 inline-block text-sm font-bold text-black underline underline-offset-4 hover:opacity-50"
                         >
                             Get in touch ↗
