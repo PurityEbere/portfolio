@@ -1,116 +1,40 @@
-# Purity Udeh — Portfolio
+# Purity Udeh
 
-A minimal personal portfolio built with [Next.js](https://nextjs.org) (App Router), React, TypeScript and Tailwind CSS. It has a Build landing page, Projects gallery, Case Studies index, Activities & Writing page, About page, and individual project pages.
+**Technical Product Manager — Product & Engineering**
 
-## Requirements
+I work at the intersection of product, technology and business, helping turn ideas and complex problems into products people can actually use.
 
-- [Node.js](https://nodejs.org) 18.18 or newer (20 or 22 recommended)
-- npm (comes with Node.js)
+My experience spans fintech, payment infrastructure, APIs, SaaS, EdTech and digital products. I've worked with engineering, design and commercial teams to take products from discovery and definition through development, launch and scale.
 
-Check your versions with:
+I'm particularly interested in how technology can solve everyday problems, and I'm always curious about what becomes possible when people approach familiar problems differently.
 
-```bash
-node -v
-npm -v
-```
+### A little about what I do
 
-## Getting started
+- **Product:** Strategy, discovery, product definition and execution.
+- **Technology:** APIs, payment infrastructure, integrations and platform products.
+- **Writing:** Product documentation, technical writing and making complex ideas easier to understand.
+- **Community:** Helping create spaces where people in technology can connect, learn and share ideas.
 
-```bash
-# 1. Install dependencies (first time only, or after pulling changes)
-npm install
+### Beyond work
 
-# 2. Start the development server
-npm run dev
-```
+I'm exploring machine learning, AI and the intersection of science and technology. I have a background in Biochemistry, and I'm interested in finding ways to bring that knowledge into the world of technology and research.
 
-Open <http://localhost:3000> in your browser. The page reloads automatically when you save a file.
+I also contribute to developer communities and help organise **Grafana & Friends Nigeria**.
 
-To use a different port: `npm run dev -- -p 4000`.
+### What I'm interested in
 
-## Production build
+Building useful things, exploring unfamiliar problems, learning from people who think differently and working with people who care about what they're building.
 
-```bash
-npm run build   # creates an optimized build in .next/
-npm run start   # serves that build at http://localhost:3000
-```
+I believe good products come from curiosity, thoughtful execution and a willingness to keep asking questions.
 
-Run `npm run build` before deploying to catch any errors.
+### Find me around the internet
 
-## Editing content
+- [LinkedIn](https://www.linkedin.com/in/purityudeh/)
+- [X / Twitter](https://x.com/ebyereh)
+- [GitHub](https://github.com/PurityEbere)
 
-Almost everything you'll want to change lives in **`lib/data.ts`**:
+Or [send me an email](mailto:https://udeheberepurity@gmIL.COM).
 
-| What | Where in `lib/data.ts` |
-| --- | --- |
-| Name, year, email, Twitter, LinkedIn, GitHub | `site` |
-| About page paragraphs and links | `about` |
-| Projects (gallery + project pages) | `projects` |
+---
 
-### Project fields
-
-```ts
-{
-  slug: "billery",            // URL: /work/billery
-  title: "Billery",
-  role: "Product Manager",
-  company: "Raven",           // optional line under the role; delete to hide
-  year: "2025",               // "" hides the year
-  description: [              // optional; one string per paragraph; [] hides it
-    "First paragraph.",
-    "Second paragraph.",
-  ],
-  credits: ["Name One", "Name Two"],  // collaborators
-  video: "/assets/billery.mp4",       // optional; adds a play button
-  ...phone("billery.png"),            // image in public/assets/
-}
-```
-
-Notes:
-
-- The order of `projects` is the order in the gallery.
-- Descriptions show on desktop only (hidden on phones and tablets), matching the original design.
-- If you change a `slug`, the project's URL changes too.
-
-### Images and videos
-
-Put files in **`public/assets/`** and reference them as `/assets/<file>`.
-
-- Gallery images are tall phone mockups, **1317 × 2676 px** (PNG with a transparent background). The `phone("file.png")` helper sets that size.
-- If you use an image with a different size, set it explicitly instead of using the helper:
-  `image: "/assets/new.png", width: 1200, height: 2500,`
-- Videos (`.mp4` or `.webm`) are optional. When a project has one, the project page shows a play/pause button that swaps the image for the video.
-
-### Favicon
-
-The "PU" favicon is `app/favicon.ico` (32 × 32). Replace that file to change it.
-
-## Project structure
-
-```
-app/
-  layout.tsx          # root layout, fonts, page title
-  page.tsx            # home: horizontal gallery
-  about/page.tsx      # About page
-  work/[slug]/page.tsx# project pages (one per entry in lib/data.ts)
-  globals.css         # Tailwind + a few global styles
-  favicon.ico
-components/
-  Header.tsx          # name/year + nav (About, Twitter, LinkedIn)
-  WorkView.tsx        # project page layout, video play/pause
-lib/
-  data.ts             # ← all site content
-  fonts.ts            # IBM Plex Mono + Inter (via next/font)
-public/assets/        # project images and videos
-```
-
-## Deploying
-
-The easiest option is [Vercel](https://vercel.com/new) (made by the Next.js team): push this folder to a GitHub repository, import it on Vercel, and keep the default settings. Any host that supports Next.js (Netlify, Render, a Node server running `npm run build && npm run start`) also works.
-
-## Troubleshooting
-
-- **Port 3000 already in use:** stop the other process, or run `npm run dev -- -p 4000`.
-- **Old favicon still showing:** browsers cache favicons; hard-refresh with Cmd+Shift+R (Ctrl+Shift+R on Windows).
-- **Strange build errors after changing dependencies:** delete `.next` and `node_modules`, then run `npm install` again.
-\n## Adding articles\n\nOpen `app/activities/page.tsx` and add entries to the `articles` array with `title`, `publication`, `date`, and `url`. Add your real article URLs; the page intentionally does not invent article details.\n# portfolio
+*Thanks for stopping by.*

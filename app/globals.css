@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fff;
+}
+
+/* Matches the original: every link fades opacity/color over 200ms
+   unless a utility class sets its own transition. */
+a {
+  transition: opacity 0.2s, color 0.2s;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+:root {
+  --font-inter: "Inter", sans-serif;
+  --font-dm-mono: "DM Mono", monospace;
+}
+
+html,
+body {
+  font-family: var(--font-inter);
+}
+
+.font-dm-mono,
+.font-mono {
+  font-family: var(--font-dm-mono) !important;
+}
+
+@keyframes projects-scroll-right {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-projects-right {
+  animation: projects-scroll-right 20s linear infinite;
+}
