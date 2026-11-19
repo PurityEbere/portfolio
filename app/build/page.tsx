@@ -21,7 +21,7 @@ export default function Build() {
                         </p>
 
                         <a
-                            href="mailto:YOUR_EMAIL_ADDRESS"
+                            href="mailto:https://udeheberepurity@gmail.com"
                             className="mt-4 inline-block text-sm font-bold text-black underline underline-offset-4 hover:opacity-50"
                         >
                             Send me an email ↗
