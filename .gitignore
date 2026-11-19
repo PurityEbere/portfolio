@@ -4,4 +4,9 @@ out
 next-env.d.ts
 *.tsbuildinfo
 .DS_Store
-.claude
+/node_modules
+/.next/
+/out/
+/build
+.env*
+.DS_Store
